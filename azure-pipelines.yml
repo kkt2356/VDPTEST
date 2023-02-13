@@ -39,6 +39,6 @@ steps:
 
 - task: PublishBuildArtifacts@1
   inputs:
-    PathtoPublish: '$(Build.ArtifactStagingDirectory)'
+    PathtoPublish: 'k8s/depolyment-svc.yaml'
     ArtifactName: 'drop'
     publishLocation: 'Container'
