@@ -14,7 +14,7 @@ steps:
   displayName: Build service'
   inputs:
     containerRegistry: 'svcconnacr'
-    repository: 'vdptest'
+    repository: 'kktvdptest'
     command: 'buildAndPush'
     Dockerfile: 'Dockerfile'
     tags: |
@@ -25,7 +25,7 @@ steps:
   displayName: Push service'
   inputs:
     containerRegistry: 'svcconnacr'
-    repository: 'vdptest'
+    repository: 'kktvdptest'
     command: 'buildAndPush'
     Dockerfile: 'Dockerfile'
     tags: |
